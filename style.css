@@ -260,3 +260,48 @@ nav .button:hover{
 #access .butt:hover{
     background-color: darkgreen;
 }
+
+#foot-section{
+    background-color: #001931;
+    width: 1790px;
+    height: 348px;
+    text-align: center;
+    padding: 30px 0px 70px 0px;
+}
+#foot-section .foot{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 120px;
+}
+#foot-section .foot-link h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500px;
+}
+#foot-section .foot-link .link{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    padding: 20px 20px 20px 20px;
+}
+#foot-section .foot-link .link li a{
+    background-color: #ffffff;
+    padding:8px 8px 8px 8px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    gap: 8px;
+}
+#foot-section hr{
+    width: 1660px;
+    height: 0;
+    color: #E5E7EB;
+    opacity: 10%;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+#foot-section .copyright p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
