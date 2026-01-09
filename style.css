@@ -97,7 +97,7 @@ nav .button:hover{
     width: 615px;
     color: rgba(255, 255, 255, 1);
 }
-#banner .b-content .butt{
+.butt{
     width: 251px;
     height: 52px;
     background-color: rgba(70, 145, 101, 1);
