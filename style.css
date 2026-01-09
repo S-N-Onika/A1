@@ -132,34 +132,39 @@ nav .button:hover{
     padding: 7px;
     color: rgb(255, 255, 255);
 }
+
 #card-section{
     align-items: center;
     text-align: center;
     background-color: #ffffff;
+    width: 1790px;
+    height: 448px;
 }
 #card-section .title h2{
     font-size: 48px;
     font-weight: bold;
-    width: 1770px;
+    width: 1790px;
     margin-top: 50px;
 }
 #card-section .title p{
     font-size: 16px;
     color: #627382;
     margin-bottom: 30px;
-    width: 1760px;
+    width: 1790px;
 }
 #card-section .cards{
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    width: 1770px;
+    width: 1600px;
     height: 300px;
+    padding-bottom: 100px;
+    margin-left: 90px;
 }
 #card-section .card-info{
     border: none;
     padding: auto;
-    width: 1760px;
+    width: 1600px;
     height: 300px;
     box-shadow: 0px 0px 10px 0px #d4cdcd;
 }
@@ -172,7 +177,7 @@ nav .button:hover{
 #card-section .card-info h3{
     font-size: 24px;
     width: 274px;
-    margin-left: 80px;
+    margin-left: 60px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -180,5 +185,52 @@ nav .button:hover{
     font-size: 16px;
     color: #627382;
     width: 274px;
-    margin-left: 80px;
+    margin-left: 60px;
+}
+
+#brain{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 1790px;
+    height: 600px;
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+#brain .brain-img{
+    height: 300px;
+    border-radius: 12px;
+    padding: 0px 100px 0px 0px;
+}
+#brain .brain-info{
+    text-align: left;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 100px;
+}
+#brain .brain-info h6{
+    font-size: 16px;
+    color: #30B868;
+}
+#brain .brain-info h3{
+    font-size: 48px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#brain .brain-info p{
+    font-size: 16px;
+    color: #627382;
+    width: 700px;
+    height: 60px;
+    padding-bottom: 5px;
+}
+#brain .brain-info ul{
+    list-style-type: none;
+    padding: 0px;
+}
+#brain .brain-info li{
+    margin: 10px 0px;
+}
+#brain .brain-info img{
+    padding-right: 10px;
 }
