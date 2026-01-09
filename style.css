@@ -234,3 +234,29 @@ nav .button:hover{
 #brain .brain-info img{
     padding-right: 10px;
 }
+
+#access{
+    width: 1790px;
+    height: 384px;
+    margin: 2px 120px 120px 0px ;
+    text-align: center;
+}
+#access .access-info{
+    background-color: #F7F6F2;
+    width: 1600px;
+    height: 384px;
+    margin-left: 90px;
+    border-radius: 12px;
+}
+#access .access-info h3{
+    font-size: 48px;
+    padding-top: 80px;
+}
+#access .access-info p{
+    font-size: 16px;
+    color: #627382;
+    padding: 20px;
+}
+#access .butt:hover{
+    background-color: darkgreen;
+}
